@@ -1,0 +1,79 @@
+/* CSS Document */
+
+/*按钮*/
+
+.mine-btn
+{
+	border-radius: 10px;
+	border: 1px solid #776ba2;
+	padding: 3% 8% 3% 8%;
+	letter-spacing: 5px;
+	font-size: 22px;
+	background: transparent; /*完全透明*/
+	text-align: center;
+}
+
+.mine-btn-wd
+{
+	padding: 3% 15% 3% 15%;
+}
+
+.mine-btn-sm
+{
+	width: 10%;
+	padding: 0 0 0 0;
+}
+
+.mine-btn-sm-sm
+{
+	padding: 3% 6% 6% 6%;
+	font-size: 12px;
+}
+
+.mine-btn-no-border
+{
+	border: 0;
+}
+
+/*表格*/
+.mine-table
+{
+	
+}
+
+.mine-table tr
+{
+	
+}
+.mine-table th
+{
+	
+}
+.mine-table td
+{
+	
+}
+
+.mine-table thead
+{
+	
+}
+
+.mine-table tbody
+{
+	
+}
+
+.mine-table tfoot
+{
+	
+}
+
+.mine-error
+{
+	width: 100%;
+	display: block;
+	color: red;
+	text-align: center;
+	letter-spacing:2px;
+}

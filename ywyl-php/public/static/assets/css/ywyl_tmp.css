@@ -1,0 +1,107 @@
+/* CSS Document */
+
+.ywyl_tmp_img_icou_left
+{
+	width: 30%;
+	float: left;
+	padding: 5% 0 5% 5%;
+	text-align: center;
+}
+
+.ywyl_tmp_img_icou_left img
+{
+	width: 100%;
+}
+
+.ywyl_tmp_img_icou_right
+{
+	width: 30%;
+	float: right;
+	padding: 5% 5% 5% 0;
+	text-align: center;
+}
+
+.ywyl_tmp_img_icou_right img
+{
+	width: 100%;
+}
+
+
+.ywyl_tmp_user_info
+{
+	float: right;
+	padding: 5% 5% 5% 0;
+}
+
+.ywyl_tmp_erweima_desc
+{
+	width: 40%;
+	margin-top: 20%;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+}
+
+.ywyl_tmp_ul .ywyl_tmp_li
+{
+	margin: 1% 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.ywyl_tmp_row
+{
+	width: 100%;
+	background-color:#FFFFFF;
+	height: 0;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 100% 0;
+	border: 2px solid #888888
+}
+
+.ywyl_tmp_row img
+{
+	width: 50%;
+	padding:10% 0 0 0;
+}
+.ywyl_tmp_row p
+{
+	width: 100%;
+}
+
+.ywyl_tmp_back
+{
+	width: 100%;
+	text-align: center;
+}
+
+.ywyl_tmp_back_img
+{
+	width: 10%;
+	float: left;
+	margin-left: 2%;
+}
+
+.ywyl_tmp_menu_btn
+{
+	float: right;
+}
+
+.ywyl_tmp_001
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.ywyl_tmp_002
+{
+	margin-top: 2%;
+}
+
+.ywyl_tmp_page
+{
+	margin: 0 7% 0 auto;
+}
+

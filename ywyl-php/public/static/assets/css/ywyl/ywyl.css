@@ -1,0 +1,106 @@
+/* CSS Document */
+img
+{
+	width: 100%;
+}
+
+.ywyl_agent_header
+{
+	background-color:rgb(195,178,255);
+	border-color:rgb(195,178,255);
+	color: #776ba2;
+}
+
+.ywyl_agent_header span
+{
+	color: #776ba2;
+	font-size:20px;
+}
+
+.ywyl_agent_header a span
+{
+	color: #776ba2;
+	font-size:20px;
+}
+
+.ywyl_body
+{
+	background-image: url(../../i/ywyl/backgroup.png);
+	margin: 0 0 0 0;
+}
+
+.ywyl_row
+{
+	margin:1% 0 0 0;
+}
+
+.div_round
+{
+	 border-radius:10%;
+}
+
+.ywyl_back_img
+{
+	float: right;
+	margin-right: 3%;
+	margin-top: 1%;
+	width: 10%;
+}
+
+.ywyl_error
+{
+	text-align: center;
+	margin: 15% 0 0 0;
+	font-size:22px;
+}
+
+.ywyl-form-group
+{
+	margin: 10% 0 10% 0;
+}
+
+.ywyl-form-group-label
+{
+	width: 100%;
+}
+
+.ywyl-form-group-label img
+{
+	width: 11%;
+	margin: 0 0 0 44%;
+}
+
+.ywyl-index-user
+{
+	margin-top: 10%;
+}
+
+.ywyl-index-user-info
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.ywyl-index-user-info p
+{
+	margin: 0 0 0 0;
+	color:#9b92bc;
+}
+
+.ywyl-index-user-img
+{
+	width: 25%;
+	margin-left: 37.5%;
+}
+
+.ywyl-index-user-img img
+{
+	border: 1px solid #776ba2;
+	border-radius:50%;
+}
+.ywyl-index-user-erweima
+{
+	width: 45%;
+	margin-left: 28%;
+}

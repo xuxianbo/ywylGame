@@ -1,0 +1,265 @@
+/* CSS Document */
+
+.ywyl_tmp_img_icou_left
+{
+	width: 30%;
+	float: left;
+	padding: 5% 0 5% 5%;
+	text-align: center;
+}
+
+.ywyl_tmp_img_icou_left img
+{
+	width: 100%;
+}
+
+.ywyl_tmp_img_icou_right
+{
+	width: 30%;
+	float: right;
+	padding: 5% 5% 5% 0;
+	text-align: center;
+}
+
+.ywyl_tmp_img_icou_right img
+{
+	width: 100%;
+}
+
+
+.ywyl_tmp_user_info
+{
+	float: right;
+	padding: 5% 5% 5% 0;
+}
+
+.ywyl_tmp_erweima_desc
+{
+	width: 40%;
+	margin-top: 20%;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+}
+
+.ywyl_tmp_ul .ywyl_tmp_li
+{
+	margin: 1% 0 0 0;
+	padding: 0 0 0 0;
+
+}
+
+.ywyl_tmp_row
+{
+	width: 100%;
+	background-color: #dad0ff;
+	height: 0;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 100% 0;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+.ywyl_tmp_row img
+{
+	width: 50%;
+	padding:10% 0 0 0;
+	margin: 5% 0 0 0;
+}
+.ywyl_tmp_row p
+{
+	margin: 5% 0 0 0;
+	width: 100%;
+	color:#776ba2;
+}
+
+.ywyl_tmp_back
+{
+	width: 100%;
+	text-align: center;
+}
+
+.ywyl_tmp_back_img
+{
+	width: 10%;
+	float: left;
+	margin-left: 2%;
+}
+
+.ywyl_tmp_menu_btn
+{
+	float: right;
+}
+
+.ywyl_tmp_001
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.ywyl_tmp_002
+{
+	margin-top: 2%;
+}
+
+.ywyl-tmp-003
+{
+	margin-top: 10%;
+}
+
+.ywyl_tmp_page
+{
+	margin: 0 7% 0 auto;
+}
+
+.ywyl-tmp-input-div
+{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.ywyl-tmp-submit-div
+{
+	margin:15% 0 0 30%;
+}
+
+.ywyl-tmp-login-from
+{
+	margin-top: 25%;
+}
+
+.ywyl-tmp-header-menu
+{
+	float: right;
+}
+
+.ywyl-tmp-header-back 
+{
+	float: left;
+}
+
+.ywyl-tmp-erweima
+{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.ywyl_tmp_from_label
+{
+	width: 30%;
+	float: left;
+	font-size: 18px;
+	color: #776ba2;
+	text-align: right;
+	margin: 0 0 0 0;
+	padding: 1% 3% 0 0;
+}
+
+.ywyl_tmp_from_label_font
+{
+	font-size: 18px;
+	color: #776ba2;
+	text-align: left;
+	margin: 0 0 0 0;
+	padding: 1% 3% 0 0;
+}
+
+.ywyl_tmp_from_input
+{
+	width: 70%;
+	float:right;
+}
+
+.ywyl-tmp-004
+{
+	width: 30%;
+	margin-left: 35%
+}
+
+.ywyl-tmp-005
+{
+	width: 30%;
+	height: 40px;
+	float: left;
+	
+	color:#bdb4df;
+	text-align: center;
+	line-height: 40px;
+	font-size: 21px;
+	
+	background-color: #eae4ff;
+	border-radius:10% 10% 0 0;
+}
+
+.ywyl-tmp-005-active
+{
+	color:#776ba2;
+	background-color: #c7b7ff;
+}
+
+.ywyl-tmp-005-header
+{
+	width: 100%;
+	border-bottom: 2px solid #c7b7ff;
+}
+
+.ywyl-tmp-btn-001
+{
+	letter-spacing: 1px;
+	color:#8b82ac;
+	border: 2px solid #8b82ac;
+}
+
+.ywyl-tmp-table-001
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.ywyl-tmp-table-001 thead tr th
+{
+	color:#8b82ac;
+	background-color: #dad0ff;
+	border: 0;
+}
+
+.ywyl-tmp-table-001 tbody tr td
+{
+	color:#8b82ac;
+	border:0;
+	border-bottom: 1px solid #c7b7ff;
+}
+
+.ywyl-tmp-tr-001
+{
+	color:#8b82ac;
+	border:0;
+	border-bottom: 1px solid #c7b7ff;
+}
+
+.ywyl-tmp-006
+{
+	width: 100%;
+	margin: 0 0 100% 0;
+	border-radius: 3%;
+}
+
+.ywyl-tmp-007
+{
+	margin-left: 30%;
+	color: #8b82ac;
+	padding: 8px 12px 8px 17px;
+	border: 1px solid #8b82ac;
+}
+
+.ywyl-tmp-input-001
+{
+	background-color: #e0d7ff;
+	text-align: center;
+	align-items: center;
+}

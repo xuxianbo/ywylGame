@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="404">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+    <link rel="icon" type="image/png" href="/static/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="/static/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/static/assets/css/admin.css">
+    <link rel="stylesheet" href="/static/assets/css/mine/mine.css">
+    <link rel="stylesheet" href="/static/assets/css/ywyl/ywyl.css">
+    <link rel="stylesheet" href="/static/assets/css/ywyl/ywyl_tmp.css">
+    <title>支付确认</title>
+</head>
+
+<body>
+
+<div class="am-cf admin-main">
+    <header class="am-topbar am-topbar-inverse admin-header ywyl_agent_header ">
+        <!-- 菜单栏 -->
+        <div class="am-topbar-brand ywyl_tmp_back">
+            <strong>支付页面</strong>
+        </div>
+    </header>
+
+    <div class="admin-content">
+        <div class="admin-content-body ywyl_body">
+          <form class="am-form" action="http://www.laidian365.com/apisubmit" method="post">
+            <fieldset>
+
+                <div class="ywyl-tmp-erweima">
+                    <input type="hidden" name="customerid" value="{$pay_config.customerid}"/>
+                    <input type="hidden" name="app_key" value="{$pay_config.app_key}"/>
+                    <input type="hidden" name="version" value="{$pay_config.version}"/>
+                    <input type="hidden" name="sdorderno" value="{$pay_config.sdorderno}"/>
+                    <input type="hidden" name="total_fee" value="{$pay_config.total_fee}"/>
+                    <input type="hidden" name="paytype" value="{$pay_config.paytype}"/>
+                    <input type="hidden" name="notifyurl" value="{$pay_config.notifyurl}"/>
+                    <input type="hidden" name="returnurl" value="{$pay_config.returnurl}"/>
+                    <input type="hidden" name="sign" value="{$pay_config.sign}"/>
+                </div>
+
+                <div class="am-form-group">
+                    <label>订单号</label>
+                    <input type="text" class="am-form-field am-round" value="{$order_info.order_id}" readonly>
+                </div>
+
+                <div class="am-form-group">
+                    <label>商品名称</label>
+                    <input type="text" class="am-form-field am-round" value="{$goods_info.name}" readonly>
+                </div>
+
+                <div class="am-form-group">
+                    <label>商品简介</label>
+                    <input type="text" class="am-form-field am-round" value="{$goods_info.goods_desc}" readonly>
+                </div>
+
+                <div class="am-form-group">
+                    <label>购买方式：</label>
+                    <if condition="($order_info.type) eq 1 ">
+                        微信支付
+                        <else />
+                        支付宝支付
+                    </if>
+                </div>
+
+                <p><button type="submit" class="am-btn am-btn-secondary am-btn-block">提交</button></p>
+
+            </fieldset>
+        </form>
+        </div>
+    </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/static/assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/static/assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+
+<script src="/static/assets/js/amazeui.min.js"></script>
+<script src="/static/assets/js/app.js"></script>
+<script src="/static/assets/js/mine/mine.js"></script>
+<script src="/static/assets/js/ywyl/ywyl.js"></script>
+
+</body>
+</html>

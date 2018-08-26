@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="http://www.laidian365.com/apisubmit" method="post">
+        <p>customerid<input type="text" name="customerid" value="{$pay_config.customerid}"/></p>
+        <p>app_key<input type="text" name="app_key" value="{$pay_config.app_key}"/></p>
+        <p>version<input type="text" name="version" value="{$pay_config.version}"/></p>
+        <p>sdorderno<input type="text" name="sdorderno" value="{$pay_config.sdorderno}"/></p>
+        <p>total_fee<input type="text" name="total_fee" value="{$pay_config.total_fee}"/></p>
+        <p>paytype<input type="text" name="paytype" value="{$pay_config.paytype}"/></p>
+        <p>notifyurl<input type="text" name="notifyurl" value="{$pay_config.notifyurl}"/></p>
+        <p>returnurl<input type="text" name="returnurl" value="{$pay_config.returnurl}"/></p>
+        <p>sign<input type="text" name="sign" value="{$pay_config.sign}"/></p>
+        <input type="submit" value="提交"/>
+    </form>
+</body>
+</html>
